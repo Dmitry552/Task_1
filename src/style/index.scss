@@ -1,0 +1,19 @@
+@import './reset.scss';
+@import './fonts.scss';
+
+body, html {
+  font-family: NunitoSans, sans-serif;
+  font-weight: 400;
+}
+
+@import './PreHeader.scss';
+@import './Header.scss';
+@import './Solution.scss';
+@import './Social.scss';
+@import './Advantages.scss';
+@import './Card.scss';
+@import './CommentBlock.scss';
+@import './Sentence.scss';
+@import './CardSentence.scss';
+@import './PreFooter.scss';
+@import './Footer.scss';

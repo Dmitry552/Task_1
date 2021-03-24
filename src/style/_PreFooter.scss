@@ -1,0 +1,81 @@
+.pre_footer {
+  width: 100%;
+  background-color: #0460ba;
+  .content {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding-bottom: 43px;
+    .logo {
+      width: 75px;
+      margin: 0 auto;
+      padding-top: 40px;
+    }
+    .title {
+      font-size: 34px;
+      font-weight: 800;
+      color: white;
+      text-align: center;
+      span {
+        font-size: 18px;
+        font-weight: 400;
+        color: #dee7ff;
+      }
+      padding-top: 38px;
+    }
+    .button_block {
+      display: flex;
+      justify-content: center;
+      margin-top: 50px;
+      button {
+        height: 46px;
+        width: 183px;
+        background: none;
+        border: none;
+        font-size: 15px;
+        color: #0460ba;
+      }
+      .demo {
+        border: 2px solid #81afdc;
+        color: white;
+        border-radius: 6px;
+        margin-right: 19px;
+      }
+      .demo:hover {
+        border: none;
+        border-radius: 6px;
+        background-color: white;
+        color: #0460ba;
+      }
+      .account {
+        border: none;
+        border-radius: 6px;
+        background-color: white;
+        color: #0460ba;
+      }
+      .account:hover {
+        border: 2px solid #81afdc;
+        background-color: #0460ba;
+        color: white;
+      }
+    }
+    .try {
+      margin: 0 auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 18px;
+      .note {
+        display: flex;
+        align-items: center;
+        font-size: 14px;
+        color: white;
+        .img_block {
+          width: 20px;
+          background-color: white;
+          border-radius: 50%;
+          margin-right: 10px;
+        }
+      }
+    }
+  }
+}

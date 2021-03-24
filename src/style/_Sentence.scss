@@ -1,0 +1,41 @@
+.sentence {
+  width: 100%;
+  background-color: #f4f5f8;
+  .content {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 100px 15px 0 15px;
+    .title {
+      font-size: 34px;
+      font-weight: 800;
+      text-align: center;
+      color: #1a233b;
+      span {
+        font-size: 18px;
+        font-weight: 400;
+        color: #35415e;
+      }
+    }
+    .card_list {
+      margin-top: 60px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      padding-bottom: 68px;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1075px) {
+  .sentence {
+    .content {
+      .card_list {
+        justify-content: center;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 320px) {
+
+}

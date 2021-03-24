@@ -1,0 +1,116 @@
+.footer {
+  width: 100%;
+  background-color: #1a223b;
+  border-top: 1px solid #ebecee;
+  .content {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 50px 15px 0 15px;
+    .footer-bottom {
+      display: flex;
+      justify-content: space-between;
+      .logo {
+        height: 44px;
+        margin-right: 94px;
+      }
+      .columns {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 91px;
+        .column {
+          width: 195px;
+          padding: 15px;
+          font-style: 15px;
+          font-weight: 600;
+          color: white;
+          line-height: 2;
+          li {
+            display: flex;
+            align-items: center;
+            img {
+              margin-right: 13px;
+            }
+          }
+          li:hover {
+            color: #0460ba;
+            cursor: pointer;
+          }
+          span {
+            color: #6c7590;
+          }
+        }
+        .column .product {
+        }
+      }
+      .button_block {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        button {
+          height: 46px;
+          width: 121px;
+          background: none;
+          border: none;
+          font-size: 15px;
+          color: #0460ba;
+        }
+        .login {
+          border: 2px solid #0e407a;
+          background-color: white;
+          color: #0e407a;
+          border-radius: 6px;
+          margin-right: 14px;
+        }
+        .login:hover {
+          border: 2px solid #0460ba;
+          border-radius: 6px;
+          background-color: #0460ba;
+          color: $backgroung;
+        }
+        .free {
+          border: none;
+          border-radius: 6px;
+          background-color: #0460ba;
+          color: white;
+        }
+        .free:hover {
+          border: 2px solid #81afdc;
+          background-color: $backgroung;
+          color: #0460ba;
+        }
+      }
+    }
+    .compani {
+      border-top: 1px solid #2f364d;
+      font-size: 17px;
+      font-weight: 600;
+      text-align: center;
+      color: white;
+      padding-top: 35px;
+      padding-bottom: 56px;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1075px) {
+  .footer {
+    .content {
+      .footer-bottom {
+        .button_block {
+          flex-direction: column;
+          justify-content: flex-start;
+          .login {
+            margin-right: 0px;
+            margin-bottom: 15px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px){
+
+}

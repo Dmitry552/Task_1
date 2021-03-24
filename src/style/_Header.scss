@@ -1,0 +1,94 @@
+$backgroung: #f4faff;
+
+.conteiner_header {
+  width: 100%;
+  height: 115px;
+  background-color: $backgroung;
+  .content {
+    height: 100%;
+    max-width: 1080px;
+    padding: 0 15px 0 15px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .logo {
+      display: flex;
+      align-items: center;
+      img {
+        height: 44px;
+        margin-right: 10px;
+      }
+      p {
+        text-transform: uppercase;
+        font-size: 26px;
+        color: #0460ba;
+        span {
+          font-weight: 800;
+        }
+      }
+    }
+    .menu {
+      li {
+        display: inline-block;
+        font-size: 14px;
+        font-weight: 600;
+        margin-right: 27px;
+      }
+      li:last-child {
+        margin-right: 0px;
+      }
+      li:hover {
+        cursor: pointer;
+        color: #0460ba;
+      }
+    }
+    .button_block {
+      button {
+        height: 46px;
+        width: 111px;
+        background: none;
+        border: none;
+        font-size: 15px;
+        color: #0460ba;
+      }
+      .login {
+        border: 2px solid #81afdc;
+        border-radius: 6px;
+        margin-right: 14px;
+      }
+      .login:hover {
+        border: 2px solid #0460ba;
+        border-radius: 6px;
+        background-color: #0460ba;
+        color: $backgroung;
+      }
+      .free {
+        border: 2px solid #0460ba;
+        border-radius: 6px;
+        background-color: #0460ba;
+        color: $backgroung;
+      }
+      .free:hover {
+        border: 2px solid #81afdc;
+        background-color: $backgroung;
+        color: #0460ba;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1075px) {
+  .conteiner_header {
+    .content {
+      .menu {
+        display: none;
+      }
+    }
+  }
+  
+}
+
+@media screen and (min-width: 320px) {
+
+}

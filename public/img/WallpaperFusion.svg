@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 21" width="24" height="21">
+	<defs>
+		<linearGradient id="grd1" gradientUnits="userSpaceOnUse"  x1="3.563" y1="21.822" x2="0.256" y2="2.648">
+			<stop offset="0.18" stop-color="#f57d20"  />
+			<stop offset="0.61" stop-color="#f59020"  />
+			<stop offset="1" stop-color="#f5a420"  />
+		</linearGradient>
+		<linearGradient id="grd2" gradientUnits="userSpaceOnUse"  x1="11.768" y1="19.956" x2="11.995" y2="-2.296">
+			<stop offset="0.18" stop-color="#9dac30"  />
+			<stop offset="0.43" stop-color="#a3b330"  />
+			<stop offset="0.8" stop-color="#b2c830"  />
+			<stop offset="1" stop-color="#bcd530"  />
+		</linearGradient>
+		<linearGradient id="grd3" gradientUnits="userSpaceOnUse"  x1="13.614" y1="25.851" x2="15.609" y2="0.578">
+			<stop offset="0.15" stop-color="#01a5bc"  />
+			<stop offset="0.37" stop-color="#06afc7"  />
+			<stop offset="0.76" stop-color="#14cbe5"  />
+			<stop offset="1" stop-color="#1edefa"  />
+		</linearGradient>
+		<linearGradient id="grd4" gradientUnits="userSpaceOnUse"  x1="21.56" y1="18.59" x2="18.446" y2="15.47">
+			<stop offset="0" stop-color="#01a5bc"  />
+			<stop offset="0.08" stop-color="#01a8bf"  />
+			<stop offset="0.14" stop-color="#01b1c9"  />
+			<stop offset="0.2" stop-color="#01c0d9"  />
+			<stop offset="0.25" stop-color="#00d6f0"  />
+			<stop offset="0.27" stop-color="#00e1fc"  />
+		</linearGradient>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: url(#grd1) } 
+		.shp1 { fill: url(#grd2) } 
+		.shp2 { fill: url(#grd3) } 
+		.shp3 { fill: #87f8ff } 
+		.shp4 { fill: url(#grd4) } 
+	</style>
+	<g id="WallpaperFusion">
+		<path id="Path" class="shp0" d="M4.51 20.92L4.51 19.49L1.53 19.49L1.53 2.95L0 2.95L0 20.92C0 20.92 4.52 20.91 4.51 20.92Z" />
+		<path id="Path" class="shp1" d="M20.95 0L20.95 1.53L4.51 1.53L4.51 17.97L2.98 17.97L2.98 0L20.95 0Z" />
+		<path id="Path" class="shp2" d="M23.96 2.99L23.96 15.02L17.96 15.02L17.96 20.95L5.93 20.94L5.93 2.99L23.96 2.99Z" />
+		<path id="Oval" class="shp3" d="M11.28 10.17C12.85 10.17 14.12 8.9 14.12 7.34C14.12 5.77 12.85 4.5 11.28 4.5C9.72 4.5 8.45 5.77 8.45 7.34C8.45 8.9 9.72 10.17 11.28 10.17Z" />
+		<path id="Path" class="shp3" d="M7.44 19.49L19.17 19.49L18.93 17.51L13.48 11.97L7.44 19.49Z" />
+		<path id="Path" class="shp3" d="M20.22 7.92L22.47 10.16L22.47 15.82L20.35 15.97L16.68 12.3L20.22 7.92Z" />
+		<path id="Path" class="shp4" d="M23.98 15.02L17.96 20.95L17.96 20.95L17.96 15.02L23.98 15.02Z" />
+	</g>
+</svg>
