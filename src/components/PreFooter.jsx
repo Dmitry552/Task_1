@@ -16,8 +16,8 @@ export const PreFooter = () => {
           </span></p>
         </div>
         <div className="button_block">
-          <button className="demo">View Demo</button>
-          <button className="account">Create Free Account</button>
+          <button className="button type_2 demo">View Demo</button>
+          <button className="button type_1 account">Create Free Account</button>
         </div>
         <div className="try">
           <div className="note">

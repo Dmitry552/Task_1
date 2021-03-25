@@ -1,0 +1,38 @@
+@import './variables.scss';
+
+.button {
+  height: 46px;
+  width: 111px;
+  background: none;
+  border: none;
+  font-size: 15px;
+  color: $blue;
+}
+
+//for button
+
+.type_1 {
+  border: 2px solid $border_butten;
+  border-radius: 6px;
+  margin-right: 14px;
+}
+.type_1:hover {
+  cursor: pointer;
+  border: 2px solid $blue;
+  border-radius: 6px;
+  background-color: $blue;
+  color: $backgraund;
+}
+
+.type_2 {
+  border: 2px solid $blue;
+  border-radius: 6px;
+  background-color: $blue;
+  color: $backgraund;
+}
+.type_2:hover {
+  cursor: pointer;
+  border: 2px solid $border_butten;
+  background-color: $backgraund;
+  color: $blue;
+}

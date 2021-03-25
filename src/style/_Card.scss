@@ -1,3 +1,5 @@
+@import '../utils/variables.scss';
+
 .card {
   width: 285px;
   padding: 0 25px 25px 25px;
@@ -13,13 +15,13 @@
     align-items: center;
     font-size: 18px;
     font-weight: 800;
-    color: #1a233b;
+    color: $title_text;
     .img_conteiner {
       position: relative;
       width: 50px;
       height: 50px;
       border-radius: 50%;
-      background-color: #f2f7fb;
+      background-color:$backgraund;
       margin-right: 10px;
       margin-bottom: 14px;
       img {
@@ -41,9 +43,13 @@
   transform: scale(1.05);
 }
 
-@media screen and (min-width: 768px) and (max-width: 1075px) {
+@media screen and (max-width: 1075px) {
   .card {
     width: 350px;
+    .title_card {
+      align-items: center;
+    }
+
   }
 }
 

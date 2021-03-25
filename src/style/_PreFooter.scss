@@ -1,6 +1,8 @@
+@import '../utils/variables.scss';
+
 .pre_footer {
   width: 100%;
-  background-color: #0460ba;
+  background-color: $blue;
   .content {
     max-width: 1080px;
     margin: 0 auto;
@@ -27,34 +29,25 @@
       justify-content: center;
       margin-top: 50px;
       button {
-        height: 46px;
         width: 183px;
-        background: none;
-        border: none;
-        font-size: 15px;
-        color: #0460ba;
       }
       .demo {
-        border: 2px solid #81afdc;
+        border: 2px solid $border_butten;
         color: white;
-        border-radius: 6px;
         margin-right: 19px;
       }
       .demo:hover {
         border: none;
-        border-radius: 6px;
-        background-color: white;
-        color: #0460ba;
+        color: $blue;
       }
       .account {
         border: none;
-        border-radius: 6px;
         background-color: white;
-        color: #0460ba;
+        color: $blue;
       }
       .account:hover {
-        border: 2px solid #81afdc;
-        background-color: #0460ba;
+        border: 2px solid $border_butten;
+        background-color: $blue;
         color: white;
       }
     }

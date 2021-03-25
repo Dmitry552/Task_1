@@ -53,6 +53,7 @@ export const Advantages = () => {
           {
             card.map((e) => (
               <Card 
+                key = {e.id}
                 img={e.img}
                 title={e.title}
                 description={e.description}

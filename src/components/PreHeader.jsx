@@ -44,18 +44,16 @@ export const PreHeader = () => {
   return (
     <div className="conteiner">
       <div className="menu_Nav">
-        {menu.map(e => {
-          return (
-            <label>
+        {menu.map(e => (
+            <label key={e.id}>
               <Link to='/'>
-                <div className="menu_element" key={e.id}>
+                <div className="menu_element">
                   <img src={e.img} alt=" "/>
                   <p>{e.name}</p>
                 </div>
               </Link>
             </label>
-          )
-        })}
+        ))}
       </div>
     </div>      
   )

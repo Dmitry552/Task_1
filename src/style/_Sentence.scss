@@ -1,6 +1,8 @@
+@import '../utils/variables.scss';
+
 .sentence {
   width: 100%;
-  background-color: #f4f5f8;
+  background-color: $backgraund;
   .content {
     max-width: 1080px;
     margin: 0 auto;
@@ -9,11 +11,11 @@
       font-size: 34px;
       font-weight: 800;
       text-align: center;
-      color: #1a233b;
+      color: $title_text;
       span {
         font-size: 18px;
         font-weight: 400;
-        color: #35415e;
+        color: $text;
       }
     }
     .card_list {
@@ -26,7 +28,7 @@
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1075px) {
+@media screen and (max-width: 1075px) {
   .sentence {
     .content {
       .card_list {

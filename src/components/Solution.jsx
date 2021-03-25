@@ -17,7 +17,7 @@ export const Solution = () => {
             </p>
           </div>
           <div className="try">
-            <button>Try it free</button>
+            <button className="button type_2">Try it free</button>
             <div className="note">
               <img src="./img/checkmark-circle-2.svg" alt="true"/>
               <p>60-day Enterprise free trial</p>

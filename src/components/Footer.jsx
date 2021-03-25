@@ -15,8 +15,8 @@ export const Footer = () => {
               <ul>
                 <li>Features</li>
                 <li>How it Works</li>
-                <li>Devices \uf00f Downloads</li>
-                <li>Apps \uf00f Content</li>
+                <li>Devices &amp; Downloads</li>
+                <li>Apps &amp; Content</li>
                 <li>Pricing</li>
               </ul>
             </div>
@@ -41,12 +41,12 @@ export const Footer = () => {
             </div>
           </div>
           <div className="button_block">
-            <button className="login">Login</button>
-            <button className="free">Free Trial</button>
+            <button className="button login type_1">Login</button>
+            <button className="button free type_2">Free Trial</button>
           </div>
         </div>
         <div className="compani">
-          <p>Copyright &copy; 2007-2020 Binary Fortress Software</p>
+          <p>Copyright &copy; 2007-{new Date().getFullYear()} Binary Fortress Software</p>
         </div>
 
       </div>

@@ -1,3 +1,5 @@
+@import '../utils/variables.scss';
+
 .footer {
   width: 100%;
   background-color: #1a223b;
@@ -33,52 +35,38 @@
             }
           }
           li:hover {
-            color: #0460ba;
+            color: $blue;
             cursor: pointer;
           }
           span {
             color: #6c7590;
           }
         }
-        .column .product {
-        }
       }
       .button_block {
         display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
         button {
-          height: 46px;
           width: 121px;
-          background: none;
-          border: none;
-          font-size: 15px;
-          color: #0460ba;
         }
         .login {
-          border: 2px solid #0e407a;
+          border: 2px solid $blue;
           background-color: white;
-          color: #0e407a;
-          border-radius: 6px;
-          margin-right: 14px;
+          color: $blue;
         }
         .login:hover {
-          border: 2px solid #0460ba;
+          border: 2px solid $blue;
           border-radius: 6px;
-          background-color: #0460ba;
-          color: $backgroung;
+          background-color: $blue;
+          color: $backgraund;
         }
         .free {
           border: none;
-          border-radius: 6px;
-          background-color: #0460ba;
           color: white;
         }
         .free:hover {
-          border: 2px solid #81afdc;
-          background-color: $backgroung;
-          color: #0460ba;
+          border: 2px solid $border_butten;
+          background-color: $backgraund;
+          color: $blue;
         }
       }
     }
@@ -94,7 +82,7 @@
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1075px) {
+@media screen and (min-width: 1000px) and (max-width: 1075px) {
   .footer {
     .content {
       .footer-bottom {
@@ -111,6 +99,27 @@
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 768px){
-
+@media screen and (max-width: 1000px){
+  .footer {
+    .content {
+      .footer-bottom {
+        flex-direction: column;
+        align-items: center;
+        .logo {
+          margin-right: 0px;
+        }
+        .button_block {
+          width: 100%;
+          justify-content: space-around;
+          .login {
+            margin-right: 0px;
+            margin-bottom: 15px;
+          }
+        }
+        .columns {
+          flex-wrap: wrap;
+        }
+      }
+    }
+  }
 }
